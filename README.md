@@ -67,6 +67,14 @@ sudo adduser demo
 | `sudo usermod -L utilisateur` | bloque le compte (empêche la connexion) |
 | `sudo usermod -U utilisateur` | débloque le compte |
 
+
+Pour ajouter les usagers etu1 et etu2 au groupe Etudiants, et prof1 et prof2 au groupe Prof, en utilisant seulement la commande adduser, j’ai utilisé la syntaxe qui permet d’ajouter un utilisateur existant à un groupe existant :
+
+bash
+sudo adduser etu1 Etudiants
+sudo adduser etu2 Etudiants
+sudo adduser prof1 Prof
+sudo adduser prof2 Prof
 ---
 
 ### 2.3 Supprimer un utilisateur
